@@ -1,0 +1,150 @@
+
+*{
+  font-family: "Segoe UI",Arial,sans-serif;
+  box-sizing: border-box;
+}
+
+
+button{
+  border: 1px solid #1DA1F2;
+}
+.app{
+  min-height: 100vh;
+
+}
+
+.rightcol, .leftcol{
+  min-height: 95vh;
+}
+
+
+
+
+.messages{
+  color:white;
+  font-size: 100px;
+  font-weight: bold;
+  margin: 48px 0;
+}
+
+.messages h6{
+  color:white;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 25px 0;
+  line-height: 24px;
+}
+
+.message-images{
+  max-height: 40px;
+  padding-right: 20px;
+}
+
+.login-form{
+
+}
+
+
+
+.rightcol{
+  background-color: white;
+}
+
+.login-button{
+   border-radius: 40%;
+   border-color: #1DA1F2;
+   color:#1B95E0;
+   background-color:white;
+   padding:5px 10px;
+
+}
+
+.login-button:hover{
+
+   color:white;
+   background-color:#1B95E0;
+
+}
+
+.big-buttons{
+
+
+}
+
+.signup{
+  border-radius: 12px;
+  margin:5%;
+  background-color:#1DA1F2;
+  color:white;
+  font-weight: bold;
+  padding:5px;
+  width: 100%;
+
+}
+.signup:hover{
+
+  background-color:#1B95E0;
+  color:white;
+  font-weight: bold;
+
+}
+
+.login{
+  border-radius: 12px;
+  margin:5%;
+  font-weight: bold;
+  font-weight: bold;
+  padding:5px;
+  background-color: white;
+  color: #1DA1F2;
+  width: 100%;
+}
+
+.login:hover{
+  background-color: lightblue;
+  color: #1DA1F2;
+}
+
+.leftcol{
+  background-color: #1B95E0;
+  background-image: url("../img/watermark.png");
+  background-size: 95vh;
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.slogan-div{
+padding-top: -25px;
+}
+
+.login-form{
+  padding-top: 20px;
+}
+.login-form input{
+  min-height: 30px;
+}
+.footer-list ul{
+  list-style: none;
+  margin:0 10%;
+}
+/* .footer-list ul li{
+  list-style: none;
+ } */
+
+ .footer-list ul li a{
+   font-size: 12px;
+   color:#AAB8C6;
+  }
+
+  #slogan{
+    font-size: 27px;
+line-height: 32px;
+font-weight: bold;
+padding-bottom: 20px;
+  }
+
+  #join{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: bold;
+  }
